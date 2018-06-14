@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+*.jpg
+*.png
+**/**.jpg
+**/**.png
