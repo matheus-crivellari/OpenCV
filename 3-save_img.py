@@ -1,8 +1,6 @@
 import sys
 sys.path.append('C:\\Python27\\Lib\\site-packages')
 
-import numpy
-import matplotlib
 import cv2
 
 input = cv2.imread('./test.jpg')
