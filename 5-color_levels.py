@@ -5,7 +5,7 @@ import numpy
 import matplotlib
 import cv2
 
-image = cv2.imread('./teste.png')
+image = cv2.imread('./test.jpg')
 
 cv2.imshow('Image show', image)
 cv2.waitKey()

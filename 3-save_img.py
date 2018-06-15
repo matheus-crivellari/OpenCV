@@ -5,7 +5,7 @@ import numpy
 import matplotlib
 import cv2
 
-input = cv2.imread('./teste.jpg')
+input = cv2.imread('./test.jpg')
 print input.shape
 print 'Image WIDTH: '  , int(input.shape[1]), ' pixels'
 print 'Image HEIGHT: ' , int(input.shape[0]), ' pixels'
