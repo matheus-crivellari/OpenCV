@@ -3,7 +3,7 @@ sys.path.append('C:\\Python27\\Lib\\site-packages')
 
 import cv2
 
-image = cv2.imread('./test.jpg')
+image = cv2.imread('./../test.jpg')
 
 # BGR values for the first pixel
 # OpenCV is always Blue, Green and Red instead of Red, Green and Blue as usual.

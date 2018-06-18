@@ -7,7 +7,7 @@ import numpy as np
 # Import matplotlib in order to plot histograms
 from matplotlib import pyplot as plt
 
-image = cv2.imread('./test.jpg')
+image = cv2.imread('./../test.jpg')
 
 # Calculates the actual histogram
 histogram = cv2.calcHist([image], [0], None, [256], [0, 256])
