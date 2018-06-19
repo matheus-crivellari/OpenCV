@@ -3,6 +3,8 @@ sys.path.append('C:\\Python27\\Lib\\site-packages')
 
 import cv2
 import numpy as np
+
+# Read the image
 image = cv2.imread('./../test.jpg')
 
 # Store height and width of the image

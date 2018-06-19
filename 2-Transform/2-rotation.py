@@ -11,10 +11,14 @@ image = cv2.imread('./../test.jpg')
 height, width = image.shape[:2]
 
 # Creates a rotation matrix
-rotation_matrix = cv2.getRotationMatrix(
+rotation_matrix = cv2.getRotationMatrix2D(
     (width/2, height/2),    # Rotation pivot at the center of the image
     90,                     # Rotation degrees
-
+    1                       # Scale factor
 )
 
+rotated_image = cv2.warpAffine(image, rotation_matrix, (width, height))
 
+cv2.imshow('Rotated image ', rotated_image)
+cv2.waitKey()
+cv2.destroyAllWindows()
