@@ -3,7 +3,7 @@ sys.path.append('C:\\Python27\\Lib\\site-packages')
 
 import cv2
 
-image = cv2.imread('./../test.jpg')
+image = cv2.imread('./../test.png')
 
 image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 

@@ -4,7 +4,7 @@ sys.path.append('C:\\Python27\\Lib\\site-packages')
 import cv2
 
 # Loads the actual physical image from the disk
-image = cv2.imread('./../test.jpg')
+image = cv2.imread('./../test.png')
 
 # Splits the image into each color index
 B, G, R = cv2.split(image)

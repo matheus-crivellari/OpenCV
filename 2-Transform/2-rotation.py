@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # Read the image
-image = cv2.imread('./../test.jpg')
+image = cv2.imread('./../test.png')
 
 # Stores the image's width and height 
 height, width = image.shape[:2]

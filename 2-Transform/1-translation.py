@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # Read the image
-image = cv2.imread('./../test.jpg')
+image = cv2.imread('./../test.png')
 
 # Store height and width of the image
 height, width = image.shape[:2]
@@ -26,4 +26,4 @@ print T
 img_translation = cv2.warpAffine(image, T, (width, height))
 cv2.imshow('Translation ', img_translation)
 cv2.waitKey()
-cv2.destroyAllWindwos()
+cv2.destroyAllWindows()

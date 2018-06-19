@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # Read the image
-image = cv2.imread('./../test.jpg')
+image = cv2.imread('./../test.png')
 
 # Transpose the image
 rotated_image = cv2.transpose(image)
