@@ -11,7 +11,7 @@ import numpy as np
 # Tresh 0 means Binarry Threshold, Thresh 1 means Adaptive Mean C Threshold
 def sketch(image, thresh=0):
 	output 		= cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-	output 		= cv2.GaussianBlur(output, (5, 5), 0)
+	output 		= cv2.GaussianBlur(output, (3, 3), 0)
 	output 		= cv2.Canny(output, 10, 70)
 
 	if(thresh == 0):
